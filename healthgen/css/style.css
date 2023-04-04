@@ -1,0 +1,124 @@
+body{
+	font-family: 'Century Gothic' !important;
+}
+
+@font-face {
+font-family: 'Century Gothic';
+src: url('../fonts/CenturyGothic.woff2') format('woff2'),
+url('../fonts/CenturyGothic.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Century Gothic';
+src: url('../fonts/CenturyGothic-Italic.woff2') format('woff2'),
+url('../fonts/CenturyGothic-Italic.woff') format('woff');
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Century Gothic';
+src: url('../fonts/CenturyGothic.woff2') format('woff2'),
+url('../fonts/CenturyGothic.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Century Gothic';
+src: url('../fonts/CenturyGothic-BoldItalic.woff2') format('woff2'),
+url('../fonts/CenturyGothic-BoldItalic.woff') format('woff');
+font-weight: bold;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Century Gothic';
+src: url('../fonts/CenturyGothic-Bold.woff2') format('woff2'),
+url('../fonts/CenturyGothic-Bold.woff') format('woff');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Century Gothic';
+src: url('../fonts/CenturyGothic-Bold.woff2') format('woff2'),
+url('../fonts/CenturyGothic-Bold.woff') format('woff');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Century Gothic';
+src: url('../fonts/CenturyGothic.woff2') format('woff2'),
+url('../fonts/CenturyGothic.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Century Gothic';
+src: url('../fonts/CenturyGothic-Bold.woff2') format('woff2'),
+url('../fonts/CenturyGothic-Bold.woff') format('woff');
+font-weight: 700;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Century Gothic';
+src: url('../fonts/CenturyGothic-Bold.woff2') format('woff2'),
+url('../fonts/CenturyGothic-Bold.woff') format('woff');
+font-weight: 800;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Century Gothic';
+src: url('../fonts/Century Gothic Bold.ttf') format('ttf'),
+url('../fonts/Century Gothic Bold.ttf') format('ttf');
+font-weight: 700;
+font-style: normal;
+}
+@font-face {
+font-family: 'Century Gothic';
+src: url('../fonts/Century Gothic Bold.ttf') format('ttf'),
+url('../fonts/Century Gothic Bold.ttf') format('ttf');
+font-weight: 800;
+font-style: normal;
+}  
+
+@font-face {
+font-family: 'Century Gothic';
+src: url('../fonts/Century Gothic Bold.ttf') format('ttf'),
+url('../fonts/Century Gothic Bold.ttf') format('ttf');
+font-weight: bold;
+font-style: normal;
+}
+
+
+body.nimbus-is-editor {
+    background: #d0cece;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    background: #fff;
+} 
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header-left.header-right {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.header-left {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
